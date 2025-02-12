@@ -1,6 +1,6 @@
 :root {
-    --body-font: 'Valkyrie OT', serif;
-    --caps-font: 'Valkyrie OT', serif;
+    --body-font: 'Valkyrie', serif;
+    --caps-font: 'Valkyrie', serif;
     --font-color: #222;
     --link-color: #7e2310;
     --link-hover-color: #7d341b;
@@ -24,7 +24,7 @@
       font-family: 'Valkyrie';
       font-style: normal;
       font-weight: 400;
-      src: local('/fonts/valkyrie_ot_a_regular.woff2'), url('') format('woff2'),
+      src: local('/fonts/valkyrie_ot_a_regular.woff2'), url('/fonts/valkyrie_ot_a_regular.woff2') format('woff2'),
       url('') format('woff');
       }
   
@@ -33,14 +33,14 @@
       font-style: italic;
       font-weight: 400;
       src: local(''), url('/fonts/valkyrie_ot_a_italic.woff2') format('woff2'),
-      url('') format('woff');
+      url('/fonts/valkyrie_ot_a_italic.woff2') format('woff');
       }
   
     @font-face {
       font-family: 'Valkyrie';
       font-style: normal;
       font-weight: 700;
-      src: local(''), url('/fonts/valkyrie_ot_a_bold.woff2') format('woff2'),
+      src: local('/fonts/valkyrie_ot_a_bold.woff2'), url('/fonts/valkyrie_ot_a_bold.woff2') format('woff2'),
       url('') format('woff');
       }   
     
