@@ -51,13 +51,18 @@
   src: url('../fonts/lato-v25-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-/* Second line styling */
-.hero-heading-second {
-  margin-top: 1.25em;      /* vertical gap between lines on desktop */
-  color: #960018;          /* <- replace with your brand colour */
-  /* font-weight: 700;     /* optional: make second line bolder */
+h1.hero-heading .hero-line {
+  display: block !important;
+  
+  line-height: 1.3 !important;
 }
 
+h1.hero-heading .hero-line-2 {
+  margin-top: 1.0em !important;   /* half the font-size gap */
+  line-height: 1.3 !important;
+  color: #960018;
+  
+}
 
 
 /* Tooltip container */
