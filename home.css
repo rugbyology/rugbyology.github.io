@@ -326,7 +326,8 @@ kbd {
     line-height: 58px;
     color: #111111;
     margin-bottom: 31px; 
-    font-weight: 700;}
+    font-weight: 700;
+  text-transform: capitalize;}
   h2 {
     font-family: 'Lato', serif;
     font-size: 31px;
@@ -909,7 +910,8 @@ textarea {
   .menu:before {
     content: '\2194';
     color: #828282;
-    margin-right: 19px; }
+    margin-right: 19px; 
+  display: none;}
   @media all and (min-width: 682px) {
     .mode-rugbyology .menu {
       justify-content: center; }
