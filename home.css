@@ -71,6 +71,9 @@ h1.hero-heading .hero-line-2 {
   color: #960018;
   
 }
+#pre-optin {
+  margin-bottom: 16px; /* Adjust the value as needed (e.g., px, em, rem, %) */
+}
 
 
 /* Tooltip container */
