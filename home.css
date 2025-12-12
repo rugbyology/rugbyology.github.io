@@ -1219,7 +1219,7 @@ font-family: 'Lato', system}
   #footer .menu {
     margin-bottom: 19px; }
     #footer .menu:before {
-      display: block; }
+      display: none; }
     #footer .menu a {
       color: #111111;
       padding: 0; }
