@@ -330,7 +330,7 @@ kbd {
     color: #111111;
     margin-bottom: 31px; 
     font-weight: 700;
-  text-transform: capitalize;}
+  /* text-transform: capitalize; */}
   h2 {
     font-family: 'Lato', serif;
     font-size: 31px;
